@@ -37,3 +37,6 @@ main = print (aplicarFuncion (reverse) ["abc","cda","1234"])
 --main = print (aplicarFuncion (3*) [1,2,3,4])
 --main = print (aplicarFuncion (imparNegativo) [1,2,3,4])
 
+
+--estos ejemplos fueron extraidos del siguiente link http://zvon.org/other/haskell/Outputprelude/map_f.html y pueden ser comprobados
+--con la función map
