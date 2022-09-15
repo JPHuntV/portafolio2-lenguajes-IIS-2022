@@ -24,7 +24,7 @@ rangoAux lista =
 
 --E: Una lista de elementos
 --S: Lista ordenada de forma ascendente
---R: Los elementos de la lista deben ser del mismo tipo3
+--R: Los elementos de la lista deben ser del mismo tipo
 qsort :: (Ord a) => [a] -> [a]
 qsort [] = []
 qsort (x:xs) = qsort [a | a <- xs, a < x]
